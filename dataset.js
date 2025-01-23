@@ -51,12 +51,10 @@ data_sets.push(d1)
 let d2 = new DataSet("공통모듈구현")//메인타이틀
 
 d2.set_content("공통모듈구현을 작성합니다.")//서브 타이틀
-d2.set_img(0,{imgtitle:"분리할 공통 모듈",imgurl:"https://drive.google.com/file/d/1QOy-4vzSaxrgN18XpPPMAuZ0AuEYjaUF/view?usp=drive_link",imglog:"작성된 요구사항 명세서"})//이미지타이틀
-d2.set_img(0,{imgtitle:"공통모듈 분리 commmon.js",imgurl:"https://drive.google.com/file/d/1Rg1eJYxMzCTGRWOA2KXo7kuYcCOUSfGo/view?usp=drive_link",imglog:"",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/main/resources/static/common.js"})//이미지타이틀
+d2.set_img(0,{imgtitle:"요구사항 명세서",imgurl:"https://drive.google.com/file/d/1Cq3YVk_3YDGz_R_tBwLVuF_6jmNBI4ss/view?usp=drive_link",imglog:"작성된 요구사항 명세서",sourceurl:"https://docs.google.com/document/d/1OwyoEjSne1WZFiL5JzxSn_ILK0FFRMvy2-yOyu25LK4/edit?usp=drive_link"})//이미지타이틀
 d2.set_content("테스트케이스를 작성합니다.")
-d2.set_img(1,{imgtitle:"요구사항 명세서",imgurl:"https://drive.google.com/file/d/1Cq3YVk_3YDGz_R_tBwLVuF_6jmNBI4ss/view?usp=drive_link",imglog:"작성된 요구사항 명세서",sourceurl:"https://docs.google.com/document/d/1OwyoEjSne1WZFiL5JzxSn_ILK0FFRMvy2-yOyu25LK4/edit?usp=drive_link"})//이미지타이틀
 d2.set_content("단위테스트를 작성합니다.")
-d2.set_img(2,{imgtitle:"요구사항 명세서",imgurl:"https://drive.google.com/file/d/1Cq3YVk_3YDGz_R_tBwLVuF_6jmNBI4ss/view?usp=drive_link",imglog:"작성된 요구사항 명세서",sourceurl:"https://docs.google.com/document/d/1OwyoEjSne1WZFiL5JzxSn_ILK0FFRMvy2-yOyu25LK4/edit?usp=drive_link"})//이미지타이틀
+
 d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 
 data_sets.push(d2)
