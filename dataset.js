@@ -57,7 +57,7 @@ d2.set_img(0,{imgtitle:"newpage를 이용하여 공통모듈 분리 ",imgurl:"ht
 d2.set_content("테스트케이스를 작성합니다.")
 d2.set_img(1,{imgtitle:"경계값 분석 테스트케이스",imgurl:"https://drive.google.com/file/d/1Qq7TnoAbpDZQ91TU45XuTRLO1LaNDUDI/view?usp=drive_link",imglog:"경계값 분석 후 테스트케이스 작성",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})//이미지타이틀
 d2.set_content("단위테스트를 작성합니다.")
-d2.set_img(2,{imgtitle:"요구사항 명세서",imgurl:"https://drive.google.com/file/d/1Cq3YVk_3YDGz_R_tBwLVuF_6jmNBI4ss/view?usp=drive_link",imglog:"작성된 요구사항 명세서",sourceurl:"https://docs.google.com/document/d/1OwyoEjSne1WZFiL5JzxSn_ILK0FFRMvy2-yOyu25LK4/edit?usp=drive_link"})//이미지타이틀
+d2.set_img(2,{imgtitle:"단위테스트",imgurl:"https://drive.google.com/file/d/1ODg3i-Aa8TamQrNQGg8u4cXn8IqgkKWA/view?usp=drive_link",imglog:"아이디, 비밀번호 관련 단위테스트 작성후 junit구현하여 성공여부 출력",sourceurl:"https://docs.google.com/document/d/1yE5rKn2qTPMFFR9JNNGTpyL7Yta2BgvMvhabtO9vJ4E/edit?usp=drive_link"})//이미지타이틀
 d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 
 data_sets.push(d2)
