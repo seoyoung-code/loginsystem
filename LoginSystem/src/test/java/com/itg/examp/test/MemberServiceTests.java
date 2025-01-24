@@ -23,7 +23,7 @@ public class MemberServiceTests {
 	public void setVariable() {
 		rightId=new String[] {"aaaa","abcde","abcd","a@E3ool","bb#cc"};
 		wrongId=new String[] {"aaa","abc","aa","a#c","123"};//동치분할 동등분할 
-		rightPw=new String[] {"123456","214#aa","aa#11aa","a@eegd","44AA@EE"};
+		rightPw=new String[] {"123456","214#aa","aa#11aa","a@eegd","44A@EE"};
 		wrongPw=new String[] {"11236","214#a","#11aa","a@egd","AA@EE"};
 		
 	}
@@ -45,13 +45,13 @@ public class MemberServiceTests {
 	@Test
 	public void testId() {
 		boolean res=false;
-		for(String pw : rightPw) {
-			ms.checkPassword(pw);
-			assertEquals(true, res,":올바른 비밀번호 입니다.:");
+		for(int i=0; i<rightPw.length;i++) {
+			res=ms.checkPassword(rightPw[i]);
+			assertEquals(true, res,i+ ":올바른 비밀번호 입니다.:");
 		}
-		for(String pw:wrongPw) {
-			res=ms.checkPassword(pw);
-			assertEquals(false,res,":잘못된 비밀번호 입니다.");
+		for(int i=0; i<wrongPw.length;i++) {
+			res=ms.checkPassword(wrongPw[i]);
+			assertEquals(false,res,i+":잘못된 비밀번호 입니다.");
 			
 		}
 	}
