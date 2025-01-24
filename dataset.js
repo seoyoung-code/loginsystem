@@ -60,7 +60,8 @@ d2.set_content("단위테스트를 작성합니다.")
 d2.set_img(2,{imgtitle:"단위테스트",imgurl:"https://drive.google.com/file/d/1ODg3i-Aa8TamQrNQGg8u4cXn8IqgkKWA/view?usp=drive_link",imglog:"아이디, 비밀번호 관련 단위테스트 작성",sourceurl:"https://docs.google.com/document/d/1yE5rKn2qTPMFFR9JNNGTpyL7Yta2BgvMvhabtO9vJ4E/edit?usp=drive_link"})//이미지타이틀
 d2.set_img(2,{imgtitle:"실행",imgurl:"https://drive.google.com/file/d/1K0SZmZyOru967UawrK3UZvBGy5ggRd65/view?usp=drive_link",imglog:"junit구현하여 성공여부 출력",sourceurl:"https://docs.google.com/document/d/1yE5rKn2qTPMFFR9JNNGTpyL7Yta2BgvMvhabtO9vJ4E/edit?usp=drive_link"})//이미지타이틀
 d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
-
+d2.set_content("테스트결과보고서를 작성합니다.")
+d2.set_img(1,{imgtitle:"경계값 분석 테스트케이스",imgurl:"https://drive.google.com/file/d/1Qq7TnoAbpDZQ91TU45XuTRLO1LaNDUDI/view?usp=drive_link",imglog:"경계값 분석 후 테스트케이스 작성",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})//이미지타이틀
 data_sets.push(d2)
 
 // menu3 =============================================================
