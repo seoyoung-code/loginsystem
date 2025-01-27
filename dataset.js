@@ -72,15 +72,21 @@ let d3 = new DataSet("서버프로그램구현")//메인타이틀
 d3.set_content("회원가입구현")//서브타이틀
 d3.set_img(0,{imgtitle:"회원가입 화면 창",imgurl:"https://drive.google.com/file/d/18revqzjs1fiZnr2j_fvygTV-u5TR_2eQ/view?usp=drive_link",imglog:"회원가입 화면",sourceurl:""})//이미지타이틀
 d3.set_img(0,{imgtitle:"회원가입 html코드",imgurl:"https://drive.google.com/file/d/1LkyXOA3KhbocXqYKlIRr6TXQTxDSHnPx/view?usp=drive_link",imglog:"회원가입 화면을 구성하고 서버로 코드와 연결되어 작동한다.",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/main/resources/static/signup.html"})//이미지타이틀
-d3.set_img(0,{imgtitle:"회원가입 컨트롤러",imgurl:"https://drive.google.com/file/d/1Ms-eO3uUgq6CecsNNwOjAOO64-3fDfym/view?usp=drive_link",imglog:"6자리 이상 아이디, 4자리 이상 비밀번호를 작성하도록",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
+d3.set_img(0,{imgtitle:"회원가입 컨트롤러",imgurl:"https://drive.google.com/file/d/1Ms-eO3uUgq6CecsNNwOjAOO64-3fDfym/view?usp=drive_link",imglog:"4자리 이상 아이디, 6자리 이상 비밀번호를 작성하도록",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
 d3.set_img(0,{imgtitle:"회원가입 DAO",imgurl:"https://drive.google.com/file/d/18revqzjs1fiZnr2j_fvygTV-u5TR_2eQ/view?usp=drive_link",imglog:"데이터베이스에 접근",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/dao/MemberDAOImpl.java"})//이미지타이틀
 d3.set_img(0,{imgtitle:"회원가입 매퍼",imgurl:"https://drive.google.com/file/d/1or2ilP5uaNy9iZPeTVVr6au0LDVRva-M/view?usp=drive_link",imglog:"SQL문 실행을 위해 Parameter Object를 받아오거나 SQL문 실행 결과를 Result Obejct에 자동 바인딩한다.",sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"회원가입",imgurl:"https://drive.google.com/file/d/1xkf99iOs34kXe151zqRCXuDEA4nSg2UB/view?usp=drive_link",imglog:"회원가입 화면",sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"회원가입 후 DB결과",imgurl:"https://drive.google.com/file/d/1YdKUW5ABvp4zi0N8J2Y5Md9rlxqbpf_Q/view?usp=drive_link",imglog:"회원가입한 정보가 heidiSQL에 입력됨",sourceurl:""})//이미지타이틀
 d3.set_content("회원로그인구현")
-d3.set_content("회원리스트연동")
-d3.set_content("테스트케이스 작성")
-d3.set_content("목오브젝트생성 및 테스트 구현")
-d3.set_content("결과보고서 작성")
-d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
+d3.set_img(1,{imgtitle:"로그인 화면 창",imgurl:"https://drive.google.com/file/d/14sQRHmmdILhYKhMt4zrmK9vLhLAFMt69/view?usp=drive_link",imglog:"로그인 화면",sourceurl:""})//이미지타이틀
+d3.set_img(1,{imgtitle:"로그인 html코드",imgurl:"https://drive.google.com/file/d/14sQRHmmdILhYKhMt4zrmK9vLhLAFMt69/view?usp=drive_link",imglog:"로그인 화면",sourceurl:""})//이미지타이틀
+d3.set_content("회원 로그아웃 구현")
+d3.set_img(2,{imgtitle:"회원가입 화면 창",imgurl:"https://drive.google.com/file/d/18revqzjs1fiZnr2j_fvygTV-u5TR_2eQ/view?usp=drive_link",imglog:"회원가입 화면",sourceurl:""})//이미지타이틀
+d3.set_content("회원 리스트 출력 구현")
+d3.set_img(3,{imgtitle:"회원가입 화면 창",imgurl:"https://drive.google.com/file/d/18revqzjs1fiZnr2j_fvygTV-u5TR_2eQ/view?usp=drive_link",imglog:"회원가입 화면",sourceurl:""})//이미지타이틀
+//d3.set_content("목오브젝트생성 및 테스트 구현")
+//d3.set_content("결과보고서 작성")
+//d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d3)
 
 // menu4 =============================================================
