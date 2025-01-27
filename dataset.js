@@ -32,7 +32,7 @@ d1.set_img(0,{imgtitle:"요구사항 명세서",imgurl:"https://drive.google.com
 
 d1.set_content("목표 시스템 개발을 위한 적정한 언어를 선정하고 라이선스와 향후 지원사항을 참고하여 결정한다.")
 d1.set_img(1,{imgtitle:"개발언어선정",imgurl:"https://drive.google.com/file/d/1t2h-wWO7F_yOotK1S3-u_Ne7hDbBjF_4/view?usp=drive_link",imglog:"자바언어기반 스프링프레임워크, html5, memberData file",sourceurl:"https://docs.google.com/document/d/1kQWanQr3kQWzqaB5FePuD0FA-_1v5mYvhloqsSiPzbM/edit?usp=drive_link"})//이미지타이틀
-d1.set_img(1,{imgtitle:"스프링프레임워크",imgurl:"https://drive.google.com/file/d/1HRUQhj2Tk6AzIW_NSRD59wGUAduJYTmW/view?usp=drive_link",imglog:"오픈소스 스프링프레임워크 v4.221",sourceurl:""})//이미지타이틀
+d1.set_img(1,{imgtitle:"스프링프레임워크",imgurl:"https://drive.google.com/file/d/1IriJ6NEdwsP9oVvsBsxYf2uT0xJhkzro/view?usp=drive_link",imglog:"오픈소스 스프링프레임워크 v4.27",sourceurl:""})//이미지타이틀
 d1.set_img(1,{imgtitle:"jquery",imgurl:"https://drive.google.com/file/d/1c7fo5xJEDs7AqELyjqWxHtmvsH8gqh2x/view?usp=drive_link",imglog:"오픈소스 jquery ",sourceurl:""})//이미지타이틀
 d1.set_img(1,{imgtitle:"Heidisql",imgurl:"https://drive.google.com/file/d/1iMzoy9tcinmkSITZmMxUwC5Pm8nIBwKb/view?usp=drive_link",imglog:"Heidisql 12.8.0.6908 ",sourceurl:""})//이미지타이틀
 d1.set_img(1,{imgtitle:"jquery",imgurl:"https://drive.google.com/file/d/1WVbjpobKDluXfCd-Z-IydXizK2wViSXP/view?usp=drive_link",imglog:"postman 11.29.2 ",sourceurl:""})//이미지타이틀
