@@ -104,13 +104,12 @@ data_sets.push(d3)
 
 // menu4 =============================================================
 let d4 = new DataSet("배치프로그램구현")//메인타이틀
+d4.set_content("배치스케줄구현")//서브타이틀
 d4.set_img(0,{imgtitle:"배치 스케줄 구성",imgurl:"https://drive.google.com/file/d/1TePLq-Uoso9qYupn2oo_sdDjh9mAqleL/view?usp=drive_link",imglog:"배치 프로그램 사용을 위한 빌드 세팅, job구현",sourceurl:""})
 d4.set_img(0,{imgtitle:"배치 스케줄 등록",imgurl:"https://drive.google.com/file/d/1qYx2fGckIkot8ml5EGQuRsc8yvxY9yMs/view?usp=drive_link",imglog:"배치 스케줄 구현",sourceurl:""})
 d4.set_img(0,{imgtitle:"배치 반복작업",imgurl:"https://drive.google.com/file/d/1x_Ye0Pfqb9MacxXCvf0_KFWitUQyPDOY/view?usp=drive_link",imglog:"1분에 한 번씩 배치반복작업 ",sourceurl:""})
 d4.set_img(0,{imgtitle:"배치 로그 기록",imgurl:"https://drive.google.com/file/d/1vJWjIWc0Z1XRHMxTl0bGxR_0u_8qG-bj/view?usp=drive_link",imglog:"heidiSQL을 이용하여 배치기록을 확인한다.",sourceurl:""})
-d4.set_content("배치스케줄구현")//서브타이틀
 
-d4.set_content("배치프로그램테스트 구현")
 
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d4)
