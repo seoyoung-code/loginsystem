@@ -90,14 +90,12 @@ d3.set_img(2,{imgtitle:"회원가입 후 로그아웃 구현",imgurl:"https://dr
 d3.set_img(2,{imgtitle:"회원가입 후 로그아웃 ",imgurl:"https://drive.google.com/file/d/1QOy-4vzSaxrgN18XpPPMAuZ0AuEYjaUF/view?usp=drive_link",imglog:"로그아웃",sourceurl:""})//이미지타이틀
 d3.set_img(2,{imgtitle:"로그인 로그아웃 화면",imgurl:"https://drive.google.com/file/d/11SP5CC2L-WTQ9-7_fh9BvRAMWVYWkNtJ/view?usp=drive_link",imglog:"로그아웃",sourceurl:""})//이미지타이틀
 d3.set_content("회원 리스트 출력 구현")
-d3.set_img(3,{imgtitle:"로그인 된 화면",imgurl:"https://drive.google.com/file/d/1eNMeKwyYkGUjMNoBKFohevW_L8eN6qho/view?usp=drive_link",imglog:"",sourceurl:""})//이미지타이틀
-d3.set_img(3,{imgtitle:"회원리스트 출력 구현",imgurl:"https://drive.google.com/file/d/1m4BvIK32jLuklQvCyY3f9MmZ0j5y4zTW/view?usp=drive_link",imglog:"회원리스트 회면을 구성하고 서버에게 리스트데이터를 요청한다",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/main/resources/static/index.html"})//이미지타이틀
-d3.set_img(3,{imgtitle:"회원리스트 요청 송신",imgurl:"https://drive.google.com/file/d/1UqZ4AGDP-04Le36D5Er8_XfWI0k3V2b_/view?usp=drive_link",imglog:"회원리스트 회면을 구성하고 데이터를 수신한다",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이
-d3.set_img(3,{imgtitle:"회원리스트 요청 수신",imgurl:"https://drive.google.com/file/d/1D2qEpJXMaXSAxwR_VBqV7WtcM_34n7Kx/view?usp=drive_link",imglog:"요청을 수신",sourceurl:""})//이미지타이틀
+d3.set_img(3,{imgtitle:"로그인 된 화면",imgurl:"https://drive.google.com/file/d/1NAxC8oRXTvzFigXfoG0mah1DPtDKkGMI/view?usp=drive_link",imglog:"로그인된 화면",sourceurl:""})//이미지타이틀
+d3.set_img(3,{imgtitle:"회원리스트 요청 송신",imgurl:"https://drive.google.com/file/d/1UqZ4AGDP-04Le36D5Er8_XfWI0k3V2b_/view?usp=drive_link",imglog:"회원리스트 회면을 구성하고 서버에게 리스트데이터를 요청한다",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/main/resources/static/index.html"})//이미지타이
+d3.set_img(3,{imgtitle:"회원리스트 요청 수신",imgurl:"https://drive.google.com/file/d/1D2qEpJXMaXSAxwR_VBqV7WtcM_34n7Kx/view?usp=drive_link",imglog:"회원리스트 회면을 구성하고 데이터를 수신한다",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
 d3.set_img(3,{imgtitle:"회원리스트 DAO",imgurl:"https://drive.google.com/file/d/1_WJLjUG3w_bBXRL29OJcVNVNiM9AP0uS/view?usp=drive_link",imglog:"데이터베이스에 접근객체",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/dao/MemberDAOImpl.java"})//이미지타이틀
 d3.set_img(3,{imgtitle:"회원리스트 매퍼",imgurl:"https://drive.google.com/file/d/1_AQw_0Hbx9QCCJnTxdEqFh9QTPRWFOrg/view?usp=drive_link",imglog:"SQL문 실행을 위해 전체 회원 데이터 조회 쿼리",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/config/memberMapper.xml"})//이미지타이틀
-
-//d3.set_content("목오브젝트생성 및 테스트 구현")
+d3.set_img(3,{imgtitle:"회원리스트 출력 구현",imgurl:"https://drive.google.com/file/d/1m4BvIK32jLuklQvCyY3f9MmZ0j5y4zTW/view?usp=drive_link",imglog:"로그인 후 회원리스트를 출력",sourceurl:""})
 //d3.set_content("결과보고서 작성")
 //d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d3)
