@@ -54,6 +54,8 @@ d2.set_content("공통모듈구현을 작성합니다.")//서브 타이틀
 d2.set_img(0,{imgtitle:"분리할 공통 모듈",imgurl:"https://drive.google.com/file/d/1QOy-4vzSaxrgN18XpPPMAuZ0AuEYjaUF/view?usp=drive_link",imglog:"로그인, 로그아웃 코드 분할"})//이미지타이틀
 d2.set_img(0,{imgtitle:"공통모듈 분리 commmon.js",imgurl:"https://drive.google.com/file/d/1Rg1eJYxMzCTGRWOA2KXo7kuYcCOUSfGo/view?usp=drive_link",imglog:"로그인 함수와 로그아웃 함수를 만들어 분리시킨다.",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/main/resources/static/common.js"})//이미지타이틀
 d2.set_img(0,{imgtitle:"newpage를 이용하여 공통모듈 분리 ",imgurl:"https://drive.google.com/file/d/1nhYBjoveiiCcxxP3oMTn3h4aFCihghD8/view?usp=drive_link",imglog:"newpage를 통해 공통모듈을 분리한다.",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/main/resources/static/common.js"})//이미지타이틀
+d2.set_img(0,{imgtitle:"분리된 공통 모듈 테스트 페이지",imgurl:"https://drive.google.com/file/d/1bqrT3sq-lYEEPq2RdBNtqPosWkKgUlms/view?usp=drive_link",imglog:"분리된 모듈 페이지의 로그인 페이지.",sourceurl:""})//이미지타이틀
+d2.set_img(0,{imgtitle:"공통모듙 테스트 페이지 로그인 성공 ",imgurl:"https://drive.google.com/file/d/12DbJfXcurAIXROsQy3IC3BnfxdqMl-Vj/view?usp=drive_link",imglog:"분리된 모듈 페이지의 로그인이 성공하였습니다.",sourceurl:""})//이미지타이틀
 
 d2.set_content("테스트케이스를 작성합니다.")
 d2.set_img(1,{imgtitle:"경계값 분석 테스트케이스",imgurl:"https://drive.google.com/file/d/1Qq7TnoAbpDZQ91TU45XuTRLO1LaNDUDI/view?usp=drive_link",imglog:"경계값 분석 후 테스트케이스 작성",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})//이미지타이틀
@@ -96,13 +98,16 @@ d3.set_img(3,{imgtitle:"회원리스트 요청 수신",imgurl:"https://drive.goo
 d3.set_img(3,{imgtitle:"회원리스트 DAO",imgurl:"https://drive.google.com/file/d/1_WJLjUG3w_bBXRL29OJcVNVNiM9AP0uS/view?usp=drive_link",imglog:"데이터베이스에 접근객체",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/dao/MemberDAOImpl.java"})//이미지타이틀
 d3.set_img(3,{imgtitle:"회원리스트 매퍼",imgurl:"https://drive.google.com/file/d/1_AQw_0Hbx9QCCJnTxdEqFh9QTPRWFOrg/view?usp=drive_link",imglog:"SQL문 실행을 위해 전체 회원 데이터 조회 쿼리",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/config/memberMapper.xml"})//이미지타이틀
 d3.set_img(3,{imgtitle:"회원리스트 출력 구현",imgurl:"https://drive.google.com/file/d/1m4BvIK32jLuklQvCyY3f9MmZ0j5y4zTW/view?usp=drive_link",imglog:"로그인 후 회원리스트를 출력",sourceurl:""})
-//d3.set_content("결과보고서 작성")
+
 //d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d3)
 
 // menu4 =============================================================
 let d4 = new DataSet("배치프로그램구현")//메인타이틀
-
+d4.set_img(0,{imgtitle:"배치 스케줄 구성",imgurl:"https://drive.google.com/file/d/1TePLq-Uoso9qYupn2oo_sdDjh9mAqleL/view?usp=drive_link",imglog:"배치 프로그램 사용을 위한 빌드 세팅, job구현",sourceurl:""})
+d4.set_img(0,{imgtitle:"배치 스케줄 등록",imgurl:"https://drive.google.com/file/d/1qYx2fGckIkot8ml5EGQuRsc8yvxY9yMs/view?usp=drive_link",imglog:"배치 스케줄 구현",sourceurl:""})
+d4.set_img(0,{imgtitle:"배치 반복작업",imgurl:"https://drive.google.com/file/d/1x_Ye0Pfqb9MacxXCvf0_KFWitUQyPDOY/view?usp=drive_link",imglog:"1분에 한 번씩 배치반복작업 ",sourceurl:""})
+d4.set_img(0,{imgtitle:"배치 로그 기록",imgurl:"https://drive.google.com/file/d/1vJWjIWc0Z1XRHMxTl0bGxR_0u_8qG-bj/view?usp=drive_link",imglog:"heidiSQL을 이용하여 배치기록을 확인한다.",sourceurl:""})
 d4.set_content("배치스케줄구현")//서브타이틀
 
 d4.set_content("배치프로그램테스트 구현")
