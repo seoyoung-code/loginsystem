@@ -85,9 +85,12 @@ d3.set_img(1,{imgtitle:"로그인 DAO",imgurl:"https://drive.google.com/file/d/1
 d3.set_img(1,{imgtitle:"로그인 매퍼",imgurl:"https://drive.google.com/file/d/1or2ilP5uaNy9iZPeTVVr6au0LDVRva-M/view?usp=drive_link",imglog:"SQL문 실행을 위해 Parameter Object를 받아오거나 SQL문 실행 결과를 Result Obejct에 자동 바인딩한다.",sourceurl:"https://github.com/seoyoung-code/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/config/memberMapper.xml"})//이미지타이틀
 d3.set_img(1,{imgtitle:"로그인 성공",imgurl:"https://drive.google.com/file/d/1NAxC8oRXTvzFigXfoG0mah1DPtDKkGMI/view?usp=drive_link",imglog:"로그인이 성공되었습니다.",sourceurl:""})//이미지타이틀
 d3.set_content("회원 로그아웃 구현")
-d3.set_img(2,{imgtitle:"회원가입 화면 창",imgurl:"https://drive.google.com/file/d/18revqzjs1fiZnr2j_fvygTV-u5TR_2eQ/view?usp=drive_link",imglog:"회원가입 화면",sourceurl:""})//이미지타이틀
+d3.set_img(2,{imgtitle:"로그인 화면",imgurl:"https://drive.google.com/file/d/14sQRHmmdILhYKhMt4zrmK9vLhLAFMt69/view?usp=drive_link",imglog:"로그인화면",sourceurl:""})//이미지타이틀
+d3.set_img(2,{imgtitle:"회원가입 후 로그아웃 구현",imgurl:"https://drive.google.com/file/d/1I9JyQpdi04aqBbLepWSyuyW8rMUF_iRB/view?usp=drive_link",imglog:"멤버 컨트롤러 로그아웃",sourceurl:""})//이미지타이틀
+d3.set_img(2,{imgtitle:"회원가입 후 로그아웃 ",imgurl:"https://drive.google.com/file/d/1QOy-4vzSaxrgN18XpPPMAuZ0AuEYjaUF/view?usp=drive_link",imglog:"로그아웃",sourceurl:""})//이미지타이틀
+d3.set_img(2,{imgtitle:"로그인 로그아웃 화면",imgurl:"https://drive.google.com/file/d/11SP5CC2L-WTQ9-7_fh9BvRAMWVYWkNtJ/view?usp=drive_link",imglog:"로그아웃",sourceurl:""})//이미지타이틀
 d3.set_content("회원 리스트 출력 구현")
-d3.set_img(3,{imgtitle:"회원가입 화면 창",imgurl:"https://drive.google.com/file/d/18revqzjs1fiZnr2j_fvygTV-u5TR_2eQ/view?usp=drive_link",imglog:"회원가입 화면",sourceurl:""})//이미지타이틀
+d3.set_img(3,{imgtitle:"회원가입 화면 창",imgurl:"",imglog:"회원가입 화면",sourceurl:""})//이미지타이틀
 //d3.set_content("목오브젝트생성 및 테스트 구현")
 //d3.set_content("결과보고서 작성")
 //d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
